@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tabuleiro
+namespace tabuleiro
 {
     class Posicao
     {
@@ -11,8 +11,8 @@ namespace Tabuleiro
 
         public Posicao(int linha, int coluna)
         {
-            Linha = linha;
-            Coluna = coluna;
+            this.Linha = linha;
+            this.Coluna = coluna;
         }
 
         public override string ToString()
