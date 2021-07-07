@@ -22,7 +22,10 @@ namespace tabuleiro
             this.QtdMovimentos = 0;
         }
 
-
+        public void Adicionar_Movimentos()
+        {
+            QtdMovimentos++;
+        }
 
     }
 }
