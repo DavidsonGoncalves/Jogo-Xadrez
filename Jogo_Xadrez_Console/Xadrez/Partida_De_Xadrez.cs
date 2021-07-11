@@ -38,14 +38,14 @@ namespace Xadrez
             Tab.ColocarPeca(new Torre(Cor_Pecas.Branca, Tab), new Posicao_Xadrez('d', 2).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Branca, Tab), new Posicao_Xadrez('e', 2).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Branca, Tab), new Posicao_Xadrez('e', 1).ToPosicao());
-            Tab.ColocarPeca(new Rei(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('d', 1).ToPosicao());
+            Tab.ColocarPeca(new Rei(Cor_Pecas.Branca, Tab), new Posicao_Xadrez('d', 1).ToPosicao());
 
             Tab.ColocarPeca(new Torre(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('c', 7).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('c', 8).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('d', 7).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('e', 7).ToPosicao());
             Tab.ColocarPeca(new Torre(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('e', 8).ToPosicao());
-            Tab.ColocarPeca(new Rei(Cor_Pecas.Branca, Tab), new Posicao_Xadrez('d', 8).ToPosicao());
+            Tab.ColocarPeca(new Rei(Cor_Pecas.Preta, Tab), new Posicao_Xadrez('d', 8).ToPosicao());
         }
     }
 }
