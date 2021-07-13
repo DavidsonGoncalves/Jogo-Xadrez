@@ -17,10 +17,7 @@ namespace Jogo_Xadrez_Console
                     try
                     {
                         Console.Clear();
-                        Tela.Imprimir_Tabuleiro(Partida.Tab);
-                        Console.WriteLine();
-                        Console.WriteLine("TURNO: " + Partida.Turno);
-                        Console.WriteLine("PRÓXIMO A MOVER: " + Partida.Jogador_Atual);
+                        Tela.ImprimirPartida(Partida);
 
                         Console.WriteLine();
                         Console.Write("Origem: ");
@@ -36,6 +33,7 @@ namespace Jogo_Xadrez_Console
                         Console.Write("Destino: ");
                         Posicao destino = Tela.LerPosicao_Xadrez().ToPosicao();
                         Partida.Valida_Pos_Destino(origem, destino);
+
                         Partida.Jogada(origem, destino);
                     }
                     catch(Tabuleiro_Exception e)
