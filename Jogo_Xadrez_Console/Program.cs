@@ -44,10 +44,9 @@ namespace Jogo_Xadrez_Console
                 }
 
 
-                Tela.Imprimir_Tabuleiro(Partida.Tab);
-
-
-                Console.ReadLine();
+                Console.Clear();
+                Tela.ImprimirPartida(Partida);
+                
 
 
             }
