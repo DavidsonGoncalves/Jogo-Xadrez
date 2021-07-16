@@ -3,7 +3,7 @@ using tabuleiro;
 
 namespace Xadrez
 {
-    class Dama : Peao
+    class Dama : Peca
     {
         public Dama(Cor_Pecas cor, Tabuleiro tab) : base(cor, tab)
         {
